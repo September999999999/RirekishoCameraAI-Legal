@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>プライバシーポリシー — 履歴書カメラ AI</title>
+<style>
+  :root { --bg: #FAFAF9; --fg: #1C1917; --muted: #78716C; --accent: #2563EB; --border: #E7E5E4; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif; background: var(--bg); color: var(--fg); line-height: 1.75; padding: 2rem 1.25rem; max-width: 640px; margin: 0 auto; }
+  h1 { font-size: 1.5rem; font-weight: 700; margin-bottom: .25rem; }
+  h2 { font-size: 1.125rem; font-weight: 600; margin-top: 2rem; margin-bottom: .5rem; border-bottom: 1px solid var(--border); padding-bottom: .25rem; }
+  p, li { font-size: .9375rem; margin-bottom: .75rem; }
+  ul { padding-left: 1.25rem; }
+  .date { color: var(--muted); font-size: .8125rem; margin-bottom: 2rem; }
+  .lang-switch { text-align: right; margin-bottom: 1rem; }
+  .lang-switch a { color: var(--accent); text-decoration: none; font-size: .8125rem; }
+  a { color: var(--accent); }
+  .section-en { display: none; }
+  hr { border: none; border-top: 1px solid var(--border); margin: 2.5rem 0; }
+</style>
+<script>
+function toggleLang() {
+  document.querySelectorAll('.section-ja').forEach(e => e.style.display = e.style.display === 'none' ? '' : 'none');
+  document.querySelectorAll('.section-en').forEach(e => e.style.display = e.style.display === 'none' ? '' : 'none');
+  const btn = document.getElementById('langBtn');
+  btn.textContent = btn.textContent === 'English' ? '日本語' : 'English';
+}
+</script>
+</head>
+<body>
+
+<div class="lang-switch"><a href="javascript:void(0)" id="langBtn" onclick="toggleLang()">English</a></div>
+
+<!-- ===== 日本語 ===== -->
+<div class="section-ja">
+<h1>プライバシーポリシー</h1>
+<p class="date">最終更新日：2026年4月16日</p>
+
+<p>「履歴書カメラ AI」（以下「本アプリ」）は、mondx（以下「当社」）が提供する iOS アプリケーションです。本ポリシーでは、本アプリにおける個人情報の取り扱いについて説明します。</p>
+
+<h2>1. データの収集と処理</h2>
+<p>本アプリは、<strong>すべての写真処理を端末上（オンデバイス）で行います</strong>。撮影・加工・証明写真の生成に関するデータがインターネットに送信されることは一切ありません。</p>
+<ul>
+  <li>写真データはサーバーにアップロードされません</li>
+  <li>顔認識・背景除去・美肌処理はすべて Apple の Vision / Core Image フレームワークを使用し、端末内で完結します</li>
+  <li>AI モデルの推論はすべてオンデバイスで実行されます</li>
+</ul>
+
+<h2>2. カメラ・写真ライブラリへのアクセス</h2>
+<p>本アプリは以下の端末機能にアクセスします：</p>
+<ul>
+  <li><strong>カメラ</strong> — 証明写真を撮影するために使用します</li>
+  <li><strong>写真ライブラリ（読み取り）</strong> — 既存の写真から証明写真を作成するために使用します</li>
+  <li><strong>写真ライブラリ（書き込み）</strong> — 作成した証明写真を保存するために使用します</li>
+</ul>
+<p>これらの権限は iOS の標準ダイアログを通じてユーザーの明示的な許可を得た上で使用されます。</p>
+
+<h2>3. トラッキング・分析</h2>
+<p>本アプリは：</p>
+<ul>
+  <li>ユーザーをトラッキング<strong>しません</strong></li>
+  <li>広告識別子（IDFA）を使用<strong>しません</strong></li>
+  <li>サードパーティの分析 SDK を含み<strong>ません</strong></li>
+  <li>利用データをサーバーに送信<strong>しません</strong></li>
+</ul>
+
+<h2>4. アプリ内課金</h2>
+<p>本アプリは Apple の StoreKit 2 を通じたアプリ内課金を提供しています。購入処理はすべて Apple のシステムを経由し、当社が決済情報を保持することはありません。</p>
+
+<h2>5. 第三者へのデータ提供</h2>
+<p>本アプリはユーザーの個人データを第三者に提供、販売、共有することはありません。</p>
+
+<h2>6. 子どものプライバシー</h2>
+<p>本アプリは 13 歳未満の子どもから意図的に情報を収集することはありません。</p>
+
+<h2>7. お問い合わせ</h2>
+<p>プライバシーに関するご質問がございましたら、以下までお問い合わせください：</p>
+<p><a href="mailto:service@mondx.de">service@mondx.de</a></p>
+
+<h2>8. ポリシーの変更</h2>
+<p>本ポリシーは必要に応じて更新される場合があります。重要な変更がある場合は、アプリのアップデートを通じてお知らせします。</p>
+</div>
+
+<!-- ===== English ===== -->
+<div class="section-en">
+<h1>Privacy Policy</h1>
+<p class="date">Last updated: April 16, 2026</p>
+
+<p>"Rirekisho Camera AI" (the "App") is an iOS application provided by mondx ("we", "us"). This policy describes how the App handles your personal information.</p>
+
+<h2>1. Data Collection & Processing</h2>
+<p>The App performs <strong>all photo processing entirely on your device</strong>. No photo data is ever sent over the internet.</p>
+<ul>
+  <li>Photos are never uploaded to any server</li>
+  <li>Face detection, background removal, and beauty processing use Apple's on-device Vision / Core Image frameworks</li>
+  <li>All AI inference runs locally on your device</li>
+</ul>
+
+<h2>2. Camera & Photo Library Access</h2>
+<p>The App accesses the following device capabilities:</p>
+<ul>
+  <li><strong>Camera</strong> — to capture ID photos</li>
+  <li><strong>Photo Library (read)</strong> — to create ID photos from existing photos</li>
+  <li><strong>Photo Library (write)</strong> — to save generated ID photos</li>
+</ul>
+<p>These permissions are requested through standard iOS permission dialogs and require your explicit consent.</p>
+
+<h2>3. Tracking & Analytics</h2>
+<p>The App:</p>
+<ul>
+  <li>Does <strong>not</strong> track users</li>
+  <li>Does <strong>not</strong> use advertising identifiers (IDFA)</li>
+  <li>Does <strong>not</strong> include third-party analytics SDKs</li>
+  <li>Does <strong>not</strong> send usage data to any server</li>
+</ul>
+
+<h2>4. In-App Purchases</h2>
+<p>The App offers in-app purchases via Apple's StoreKit 2. All transactions are handled by Apple's payment system. We do not store or access your payment information.</p>
+
+<h2>5. Data Sharing</h2>
+<p>We do not sell, share, or provide your personal data to any third parties.</p>
+
+<h2>6. Children's Privacy</h2>
+<p>The App does not knowingly collect information from children under 13.</p>
+
+<h2>7. Contact Us</h2>
+<p>If you have questions about this privacy policy, please contact us at:</p>
+<p><a href="mailto:service@mondx.de">service@mondx.de</a></p>
+
+<h2>8. Changes to This Policy</h2>
+<p>We may update this policy as needed. Significant changes will be communicated through app updates.</p>
+</div>
+
+</body>
+</html>
